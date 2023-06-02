@@ -1,0 +1,35 @@
+.header {
+  background: #9C6644;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  margin-bottom: 7px;
+}
+
+img {
+  width: 35px;
+  margin: 0 1%;
+}
+
+input {
+  border-radius: 12px;
+  background: black;
+  color: yellow;
+  padding: 6px 12px;
+}
+
+::placeholder {
+  color: white;
+}
+@media(max-width:388px){
+  .logo {
+    display: none;
+  }
+  .header input {
+    margin: 0 1%;
+  }
+}
+

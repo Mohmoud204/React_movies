@@ -1,0 +1,39 @@
+
+.boxs {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.box {
+  padding: 0;
+  width: 25%;
+  background: none;
+  border: none;
+  outline: none;
+  overflow: hidden;
+}
+
+.box img {
+  padding: 0;
+  overflow: hidden;
+}
+
+@media (max-width:820px)and (min-width:586px) {
+  .box {
+    width: 33.3%;
+  }
+}
+
+@media (max-width:586px) {
+  .box {
+    
+    width: 50%;
+  }
+}
